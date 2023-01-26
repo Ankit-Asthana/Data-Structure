@@ -56,4 +56,14 @@ public class Dfs {
                 dfs(graph,i,visited);
         }
     }
+    
+     /*
+               1 --- 3
+             /       | \ 
+            0        |   5 -- 6
+             \       | /
+               2 --- 4 
+
+
+         */
 }
