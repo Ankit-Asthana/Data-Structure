@@ -91,5 +91,15 @@ public class Path {
         System.out.println("Enter the target node\n");
         int tar=ss.nextInt();
         allPath(graph,vis,source,"0", tar);
+        
+         /*
+               1 --- 3
+             /       | \ 
+            0        |   5 -- 6
+             \       | /
+               2 --- 4 
+
+
+         */
     }
 }
