@@ -42,7 +42,7 @@ public class Path {
        }
         for(int i=0;i<graph[curr].size();i++){
             Edge e=graph[curr].get(i);
-            if(!vis[e.dest]){
+            if(vis[e.dest]==false){
                 vis[curr]=true;
                 allPath(graph,vis,e.dest,path+e.dest,tar);
                 vis[curr]=false;
