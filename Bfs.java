@@ -70,5 +70,15 @@ public class Bfs{
                 bfs(graph,visited,i);
             }
         }
+        
+         /*
+               1 --- 3
+             /       | \ 
+            0        |   5 -- 6
+             \       | /
+               2 --- 4 
+
+
+         */
     }
 }
